@@ -42,6 +42,6 @@ les team admins peuvent créer une nouvelle team (qui sera validée/invalidée p
 - [ ] BDA events
 - [ ] Rechercher une team
 
-## Auteur
+## Auteurs
 
 - Robin Maréchal
