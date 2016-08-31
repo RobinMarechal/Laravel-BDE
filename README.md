@@ -44,4 +44,4 @@ les team admins peuvent créer une nouvelle team (qui sera validée/invalidée p
 
 ## Auteur
 
--Robin Maréchal
+- Robin Maréchal
