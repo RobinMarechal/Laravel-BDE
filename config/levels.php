@@ -15,7 +15,7 @@ return [
 	'bda_officer' => 2,
 
 	// Responsable de team(s)
-	'team_manager' => 1,
+	'team_admin' => 1,
 ];
 
 ?>
