@@ -32,4 +32,13 @@ les team admins peuvent créer une nouvelle team (qui sera validée/invalidée p
   
 ## Fonctionnalités :
 
-- Teams 
+- Demande de création de compte 
+- Demande de création de team
+- Teams
+- Team presentation
+- Team news
+- Team events
+- BDA news
+- BDA events
+- Rechercher une team
+- 
