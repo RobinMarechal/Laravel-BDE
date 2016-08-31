@@ -18,17 +18,17 @@ les team admins peuvent créer une nouvelle team (qui sera validée/invalidée p
   * Gérer sa/ses team(s) : Poster/modifier/supprimer news/événements, modifier la présentation.
   
 #####2. BDA_officers : Membres du bureau restreint du BDA qui ne sont pas superadmins.
-  * *\*Team_admin*
+  * _\*Team_admin_
   * Accepter/refuser la création d'une team.
   * Créer/modifier/supprimer des news/events globaux.
 
 #####3. BDA_headmaster : Dirigeants du BDA (superadmins).
-  * *\*BDA_officers*
+  * _\*BDA_officers_
   * Supprimer/modifier des teams.
   * Accepter/refuser les demandes d'inscription
   
 #####4. Webmaster : créateur(s) du site.
-  * *\**
+  * _\*_
   
 ## Fonctionnalités :
 
