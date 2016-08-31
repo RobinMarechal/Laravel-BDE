@@ -32,7 +32,7 @@ les team admins peuvent créer une nouvelle team (qui sera validée/invalidée p
   
 ## Fonctionnalités :
 
-- [x] Demande de création de compte 
+- [ ] Demande de création de compte 
 - [ ] Demande de création de team
 - [ ] Teams
 - [ ] Team presentation
