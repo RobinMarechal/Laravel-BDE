@@ -21,11 +21,11 @@ les team admins peuvent créer une nouvelle team (qui sera validée/invalidée p
   * _\*Team_admin_
   * Accepter/refuser la création d'une team.
   * Créer/modifier/supprimer des news/events globaux.
+  * Accepter/refuser les demandes d'inscription
 
 ####3. BDA_headmaster : Dirigeants du BDA (superadmins).
   * _\*BDA_officers_
   * Supprimer/modifier des teams.
-  * Accepter/refuser les demandes d'inscription
   
 ####4. Webmaster : créateur(s) du site.
   * _\*_
