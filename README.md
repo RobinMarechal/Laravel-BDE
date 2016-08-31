@@ -41,4 +41,3 @@ les team admins peuvent créer une nouvelle team (qui sera validée/invalidée p
 - BDA news
 - BDA events
 - Rechercher une team
-- 
