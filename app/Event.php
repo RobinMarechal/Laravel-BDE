@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Support\Facades\DB;
 
 class Event extends Model {
 
@@ -12,17 +13,27 @@ class Event extends Model {
 
 	use SoftDeletes;
 
-	protected $dates = ['deleted_at'];
-	protected $fillable = array('name', 'user_id', 'validated', 'article', 'team');
+	protected $dates = ['deleted_at', 'start', 'end'];
+	protected $fillable = array('name', 'user_id', 'validated', 'article', 'team_id', 'start', 'end');
 
-	public function teams()
+	public function team()
 	{
-		return $this->belongsToMany('App\Team');
+		return $this->belongsTo('App\Team');
 	}
 
 	public function user()
 	{
 		return $this->belongsTo('App\User');
+	}
+
+	public function scopeComing($query)
+	{
+		return $query->where('validated', '1')->where('start', '>=', DB::raw('NOW()'));
+	}
+
+	public function scopePast($query)
+	{
+		return $query->where('validated', '1')->where('start', '<', DB::raw('NOW()'));
 	}
 
 }

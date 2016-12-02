@@ -13,21 +13,26 @@ class Team extends Model {
 	use SoftDeletes;
 
 	protected $dates = ['deleted_at'];
-	protected $fillable = array('name', 'article', 'validated', 'user_id');
+	protected $fillable = array('name', 'article', 'validated', 'user_id', 'slug');
 
 	public function events()
 	{
-		return $this->belongsToMany('App\Event');
+		return $this->hasMany('App\Event');
 	}
 
 	public function news()
 	{
-		return $this->belongsToMany('App\News');
+		return $this->hasMany('App\News');
 	}
 
 	public function users()
 	{
 		return $this->belongsToMany('App\User')->withPivot(['validated','level']);
+	}
+
+	public function user()
+	{
+		return $this->belongsTo('App\User');
 	}
 
 }
