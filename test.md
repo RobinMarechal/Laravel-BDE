@@ -36,6 +36,7 @@ url : *[.../products/non-de-la-categorie]*
 
 
 ## Menus
+
 **index :**
 
 url : *[.../menus]*
@@ -45,6 +46,7 @@ url : *[.../menus]*
 <br/>
 
 **Creation de menu**
+
 url : *[.../menus/creation/nom-du-menu]*
 
 - Liste des choix possible par catégorie selon le menu. 
@@ -59,6 +61,7 @@ Les trois champs sont obligatoires (required) (sinon ce n'est pas ce menu là), 
 
 <br/>
 **Récapitulatif du menu**
+
 url : *[.../menus/creation/nom-du-menu/check]*
 
 - Simple résumé du menu choisis avec le prix et le contenu. Disposé par exemple (sans CSS) :
@@ -97,36 +100,43 @@ url : *[.../admin]*
 	- Liste des menus
 
 ## Produits :
+
 **Index :**
+
 url : *[.../admin/products]*
 
 - Liste des produits (comment pour le front-office) mais avec des contrôles : boutons éditer/supprimer/+/- etc...
 - Lien vers "Ajouter un nouveau produit" (*[.../admin/products/create]*)
 
 **Ajout :**
+
 url : *[.../admin/products/create]*
 
 - Formulaire d'ajout d'un produit
 
 **Liste des catégories**
+
 url : *[.../admin/categories]*
 
 - Liste des catégories (avec contrôles : supprimer, modifier...)
 - Bouton "ajouter une catégorie"
 
 **Ajouter une catégorie**
+
 url : *[.../admin/categories/create]*
 
 - Formulaire de création d'une catégorie de produits
 
 ## Menus
 
-**Index : **
+**Index :**
+
 url : *[.../admin/menus]*
 - Liste des menus (comme pour le front office) + contrôles : boutons éditer/supprimer
 - Lien vers ajouter un nouveau menu (*[.../admin/menus/create]*)
 
 **Ajout :**
+
 url : *[.../admin/menus/create]*
 
 - Formulaire d'ajout d'un menu.
