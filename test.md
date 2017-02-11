@@ -8,6 +8,7 @@
 - Contenu dynamique (vue)
 - les 5 (ou 10) produits les plus populaires (avec un lien "tout voir")
 - Latest news ? (avec un lien "tout voir")
+- Les nouveautés (articles/menus ajoutés....)
 - Footer
 
 <hr/>
@@ -36,7 +37,6 @@ url : *[.../products/non-de-la-categorie]*
 
 
 ## Menus
-
 **index :**
 
 url : *[.../menus]*
@@ -46,7 +46,6 @@ url : *[.../menus]*
 <br/>
 
 **Creation de menu**
-
 url : *[.../menus/creation/nom-du-menu]*
 
 - Liste des choix possible par catégorie selon le menu. 
@@ -74,6 +73,21 @@ url : *[.../menus/creation/nom-du-menu/check]*
 > 
 > Prix : 3,60€
 
+##News
+
+**Dernière News :**
+
+url : *[.../news]*
+
+- Liste des news publiées triées de la plus récente à la plus ancienne
+
+**Une news :**
+
+url : *[.../news/slug-de-la-news]* 
+
+- La news entières correspondant au slug "slug-de-la-news"
+
+
 <hr>
 
 # <u>Back Office 
@@ -100,48 +114,55 @@ url : *[.../admin]*
 	- Liste des menus
 
 ## Produits :
-
 **Index :**
-
 url : *[.../admin/products]*
 
 - Liste des produits (comment pour le front-office) mais avec des contrôles : boutons éditer/supprimer/+/- etc...
 - Lien vers "Ajouter un nouveau produit" (*[.../admin/products/create]*)
 
 **Ajout :**
-
 url : *[.../admin/products/create]*
 
 - Formulaire d'ajout d'un produit
 
 **Liste des catégories**
-
 url : *[.../admin/categories]*
 
 - Liste des catégories (avec contrôles : supprimer, modifier...)
 - Bouton "ajouter une catégorie"
 
 **Ajouter une catégorie**
-
 url : *[.../admin/categories/create]*
 
 - Formulaire de création d'une catégorie de produits
 
 ## Menus
 
-**Index :**
-
+**Index : **
 url : *[.../admin/menus]*
 - Liste des menus (comme pour le front office) + contrôles : boutons éditer/supprimer
 - Lien vers ajouter un nouveau menu (*[.../admin/menus/create]*)
 
 **Ajout :**
-
 url : *[.../admin/menus/create]*
 
 - Formulaire d'ajout d'un menu.
 
 > *Idée : Un champs de type select (liste des catégories) pour ajouter une catégorie + un bouton "+" pour ajouter un autre champs de type select (liste des catégories) + un champs pour rentrer le prix du menu.*
+
+##News
+
+**Création d'une news :**
+
+url *[.../admin/news/create]*
+
+- Formulaire de création d'une news
+
+**Modification d'une news :**
+
+url *[.../admin/news/slug-de-la-news/edit]*
+
+- Formulaire de modification d'une news
 
 ##Statistiques 
 *(A voir selon l'avancement du projet...)*
