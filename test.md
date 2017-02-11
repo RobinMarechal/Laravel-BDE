@@ -166,3 +166,24 @@ url *[.../admin/news/slug-de-la-news/edit]*
 
 ##Statistiques 
 *(A voir selon l'avancement du projet...)*
+
+
+# Instructions
+
+Dans l'ordre :
+
+*Initialisation du projet :*
+
+- Faire le schéma de la base de données sur Laravelsd
+- Mettre en place la base de données à partir des migrations
+- Créer les Modèles (Laravelsd les génère aussi)
+- Etablir (toutes) les routes (urls vers les bonnes méthodes des bons contrôleurs, avec les bons middleware si besoin)
+- Créer les layouts du front office et du back office (le style importe peu pour le moment)
+- Créer la vue d'accueil, et faire en sorte que l'on tombe bien sur cette vue lorsque l'on rentre l'URL "/".
+- Créer la vue d'index du back office, et faire en sorte d'y accéder si on est connecté (middleware) avec l'url "/admin"
+
+*Fonctionnalités :*
+
+- Connexion (pas de d'inscription, créer un compte basique de tests)
+- Visualisation de tous les produits (triables par ordre alphabétiques et par prix croissant/décroissant) avec une pagination. 
+- Visualisation des produits d'une catégorie particulière (triables par ordre alphabétiques et par prix croissant/décroissant) avec une pagination. 
